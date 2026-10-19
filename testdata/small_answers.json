@@ -1,0 +1,23 @@
+{
+  "accounts": [
+    {"accountId": "ABC1234.001", "status": "Full"},
+    {"accountId": "ABC1234.002", "status": "ReadOnly"}
+  ],
+  "groups": [
+    {"group": "NG", "name": "Henry Hub Natural Gas", "types": "FUTURE", "exchange": "NYMEX"},
+    {"group": "AAPL", "types": ["STOCK", "OPTION"]}
+  ],
+  "exchanges": [
+    {"id": "NASDAQ", "name": "NASDAQ: National Association of Securities Dealers Automated Quotations", "country": "US"},
+    {"id": "NYMEX"}
+  ],
+  "types": [{"id": "FUTURE"}, {"id": "STOCK"}],
+  "currencies": {"currencies": ["EUR", "USD", "GBP"]},
+  "detailedCurrencies": {"currencies": [{"id": "EUR", "fractionDigits": 8, "icon": "http://www.example.com/icon.jpg"}]},
+  "crossrate": {"pair": "EUR/USD", "symbolId": "EUR/USD.E.FX", "rate": 1.2},
+  "change": [
+    {"symbolId": "AAPL.NASDAQ", "lastSessionClosePrice": "120.0", "dailyChange": "0.005"},
+    {"symbolId": "MSFT.NASDAQ"}
+  ],
+  "specification": {"lotSize": "1.0", "contractMultiplier": "1.0", "priceUnit": "1.0", "units": "Shares"}
+}

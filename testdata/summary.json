@@ -1,0 +1,28 @@
+{
+  "accountId": "ABC1234.001",
+  "currency": "EUR",
+  "sessionDate": "2013-02-16",
+  "timestamp": 1503619200000,
+  "netAssetValue": "123456.01",
+  "freeMoney": 123406.01,
+  "moneyUsedForMargin": "50.0",
+  "marginUtilization": "0.0",
+  "currencies": [
+    {"code": "EUR", "value": "123456.01", "convertedValue": "123456.01"},
+    {"code": "USD", "value": 100}
+  ],
+  "positions": [
+    {
+      "symbolId": "AAPL.NASDAQ",
+      "symbolType": "STOCK",
+      "quantity": "1",
+      "currency": "USD",
+      "price": "120.0",
+      "averagePrice": "110.0",
+      "pnl": "10.0",
+      "convertedPnl": "12.1",
+      "value": "110.0",
+      "convertedValue": "133.1"
+    }
+  ]
+}

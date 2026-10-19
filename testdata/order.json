@@ -1,0 +1,26 @@
+{
+  "orderId": "d642d2ca-fcb5-4910-9de4-7c91f275ca23",
+  "placeTime": "2017-08-14T02:40:00Z",
+  "currentModificationId": "2d2b75f2-c4ed-4f7f-b38b-8d8219d4216f",
+  "accountId": "ABC1234.001",
+  "username": "root@example.com",
+  "clientTag": "some client tag",
+  "orderState": {
+    "status": "working",
+    "lastUpdate": "2017-08-14T02:40:01.250Z",
+    "fills": [
+      {"timestamp": "2017-08-14T02:40:00Z", "quantity": "1", "price": "120.1", "position": 1}
+    ]
+  },
+  "orderParameters": {
+    "side": "sell",
+    "quantity": "10",
+    "ocoGroup": "d440b5b6-a40f-44e5-8c3b-a9a419fea7b3",
+    "duration": "good_till_time",
+    "orderType": "limit",
+    "limitPrice": "130.0",
+    "placeInterval": 1,
+    "gttExpiration": "2017-08-15T02:40:00Z",
+    "symbolId": "AAPL.NASDAQ"
+  }
+}

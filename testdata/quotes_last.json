@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": 1550833075530,
+    "symbolId": "AAPL.NASDAQ",
+    "bid": [{"price": "101.02", "size": "100"}],
+    "ask": [{"price": "101.05", "size": "200"}]
+  },
+  {
+    "timestamp": 1550833075531,
+    "symbolId": "NOPE.NASDAQ",
+    "event": "subscription_stop",
+    "reason": "The requested resource could not be found"
+  }
+]

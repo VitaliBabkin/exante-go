@@ -1,0 +1,5 @@
+{"event":"heartbeat"}
+{"event":"order","order":{"orderId":"d642d2ca-fcb5-4910-9de4-7c91f275ca23","placeTime":"2017-08-14T02:40:00Z","currentModificationId":"2d2b75f2-c4ed-4f7f-b38b-8d8219d4216f","accountId":"ABC1234.001","orderState":{"status":"working","lastUpdate":"2017-08-14T02:40:01Z","fills":[]},"orderParameters":{"side":"buy","quantity":"6","duration":"day","orderType":"market","symbolId":"AAPL.NASDAQ"}}}
+
+{"event":"somethingNew","payload":1}
+{"event":"order","order":{"orderId":"d642d2ca-fcb5-4910-9de4-7c91f275ca23","placeTime":"2017-08-14T02:40:00Z","currentModificationId":"2d2b75f2-c4ed-4f7f-b38b-8d8219d4216f","accountId":"ABC1234.001","orderState":{"status":"filled","lastUpdate":"2017-08-14T02:40:05Z","fills":[{"timestamp":"2017-08-14T02:40:05Z","quantity":"6","price":"120.1","position":1}]},"orderParameters":{"side":"buy","quantity":"6","duration":"day","orderType":"market","symbolId":"AAPL.NASDAQ"}}}

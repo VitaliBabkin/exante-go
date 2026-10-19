@@ -1,0 +1,31 @@
+[
+  {
+    "id": 42,
+    "uuid": "c6e9abcc-e9e8-11e9-81b4-2a2ae2dbcce4",
+    "operationType": "TRADE",
+    "timestamp": 1503619200000,
+    "sum": "101.02",
+    "asset": "AAPL.NASDAQ",
+    "accountId": "ABC1234.001",
+    "symbolId": "AAPL.NASDAQ",
+    "orderId": "d767f127-481f-466c-99b1-4d3069d68b66",
+    "orderPos": 2020,
+    "valueDate": "2020-05-19",
+    "transactionPrice": 123.45
+  },
+  {
+    "id": "43",
+    "uuid": "c6e9abcc-e9e8-11e9-81b4-2a2ae2dbcce5",
+    "operationType": "COMMISSION",
+    "timestamp": "1503619201000",
+    "sum": -0.5,
+    "asset": "USD",
+    "accountId": "ABC1234.001",
+    "symbolId": "AAPL.NASDAQ",
+    "orderId": "d767f127-481f-466c-99b1-4d3069d68b66",
+    "orderPos": null,
+    "valueDate": "2020-05-19",
+    "parentUuid": "c6e9abcc-e9e8-11e9-81b4-2a2ae2dbcce4",
+    "comment": "comment"
+  }
+]

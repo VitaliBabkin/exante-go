@@ -1,0 +1,12 @@
+{
+  "id": "NG.NYMEX.U2026",
+  "ticker": "NG",
+  "description": "Henry Hub Natural Gas, September 2026",
+  "group": "NG",
+  "exchange": "NYMEX",
+  "expiration": "1788134400000",
+  "type": "FUTURE",
+  "optionData": {"optionGroupId": "NG.NYMEX.U2026.P*", "right": "PUT", "strikePrice": "3.5"},
+  "mpi": "0.001",
+  "currency": "USD"
+}

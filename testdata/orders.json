@@ -1,0 +1,22 @@
+[
+  {
+    "orderId": "d642d2ca-fcb5-4910-9de4-7c91f275ca23",
+    "placeTime": "2017-08-14T02:40:00Z",
+    "currentModificationId": "2d2b75f2-c4ed-4f7f-b38b-8d8219d4216f",
+    "accountId": "ABC1234.001",
+    "orderState": {"status": "filled", "lastUpdate": "2017-08-14T02:41:00Z", "fills": []},
+    "orderParameters": {
+      "side": "buy", "quantity": "6", "duration": "day", "orderType": "market", "symbolId": "AAPL.NASDAQ"
+    }
+  },
+  {
+    "orderId": "ffecfac8-ccf9-4015-9a0f-b49a6b9673b8",
+    "placeTime": "2017-08-14T02:42:00Z",
+    "currentModificationId": "5c1d6a24-6a4e-4a33-8d0b-b0f5d0a9c8e1",
+    "accountId": "ABC1234.001",
+    "orderState": {"status": "rejected", "lastUpdate": "2017-08-14T02:42:00Z", "fills": [], "reason": "not enough money"},
+    "orderParameters": {
+      "side": "buy", "quantity": "600", "duration": "day", "orderType": "market", "symbolId": "AAPL.NASDAQ"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "symbolId": "NG.NYMEX.U2026",
+    "ticker": "NG",
+    "description": "Henry Hub Natural Gas, September 2026",
+    "group": "NG",
+    "exchange": "NYMEX",
+    "expiration": 1788134400000,
+    "symbolType": "FUTURE",
+    "minPriceIncrement": 0.001,
+    "currency": "USD"
+  },
+  {
+    "symbolId": "OZL.CBOT.U2026.P30.5",
+    "ticker": "OZL",
+    "description": "Soybean Oil option",
+    "symbolType": "OPTION",
+    "optionData": {"optionGroupId": "OZL.CBOT.U2026.P*", "optionRight": "PUT", "strikePrice": "30.5"},
+    "minPriceIncrement": "0.01",
+    "currency": "USD"
+  }
+]

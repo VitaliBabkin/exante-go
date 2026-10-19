@@ -1,0 +1,3 @@
+{"event":"heartbeat"}
+{"event":"trade","orderId":"2abe909b-ec53-4091-a0d4-ea4f82aa047c","timestamp":"2017-08-14T02:40:00.000Z","quantity":"1","price":"101.1","position":1}
+{"event":"trade","orderId":"2abe909b-ec53-4091-a0d4-ea4f82aa047c","timestamp":"2017-08-14T02:40:01.500Z","quantity":2,"price":101.2,"position":2}

@@ -1,0 +1,14 @@
+{
+  "intervals": [
+    {
+      "name": "MainSession",
+      "period": {"start": 1481533200000, "end": 1481553000000},
+      "orderTypes": {
+        "market": ["day", "fill_or_kill"],
+        "limit": ["day", "good_till_cancel", "good_till_time"],
+        "vwap": ["day"]
+      }
+    },
+    {"name": "Offline", "period": {"start": 1481553000000, "end": 1481619600000}}
+  ]
+}

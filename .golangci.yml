@@ -1,0 +1,48 @@
+version: "2"
+linters:
+  enable:
+    - gocritic
+    - modernize
+    - funlen
+    - gocognit
+    - errorlint
+    - misspell
+    - revive
+    - godot
+  settings:
+    gocritic:
+      enabled-tags:
+        - diagnostic
+        - style
+        - performance
+    funlen:
+      lines: 150
+      statements: -1
+    gocognit:
+      min-complexity: 25
+  exclusions:
+    generated: lax
+    rules:
+      - linters:
+          - errcheck
+          - gocritic
+        path: _test\.go
+      # handler signatures in tests fix the parameters, used or not
+      - linters:
+          - revive
+        text: unused-parameter
+        path: _test\.go
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
+formatters:
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$

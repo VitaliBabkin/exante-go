@@ -1,0 +1,6 @@
+.work/
+.idea/
+.vscode/
+*.test
+*.out
+coverage.*
